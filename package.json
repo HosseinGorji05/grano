@@ -1,0 +1,24 @@
+{
+  "name": "grano-site",
+  "private": true,
+  "description": "Static marketing site for Grano. Motion's DOM API is bundled into js/vendor/motion.js so the site needs no build step to run.",
+  "scripts": {
+    "build:motion": "esbuild build/motion-entry.js --bundle --format=esm --minify --target=safari16,chrome108,firefox110 --legal-comments=none --outfile=js/vendor/motion.js",
+    "start": "python3 -m http.server 5173 --bind 127.0.0.1",
+    "audit:chrome": "\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless=new --disable-gpu --no-first-run --hide-scrollbars --remote-debugging-port=9222 --user-data-dir=\"$PWD/.audit/profile\" about:blank",
+    "audit:layout": "node .audit/audit.mjs",
+    "audit:contrast": "node .audit/contrast.mjs",
+    "audit:behaviour": "node .audit/behaviour.mjs",
+    "audit:hero": "node .audit/hero.mjs",
+    "audit:chips": "node .audit/chips.mjs",
+    "audit:anchors": "node .audit/anchors.mjs",
+    "audit:firstpaint": "node .audit/firstpaint.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^13.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "ws": "^8.19.0"
+  }
+}

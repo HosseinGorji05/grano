@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+
+# Headless-Chrome profile, screenshots and reports from .audit/*.mjs
+.audit/profile/
+.audit/shots/
+.audit/report.txt

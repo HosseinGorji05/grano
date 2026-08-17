@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en-CA" class="is-loading">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Grano — Canadian performance food</title>
+  <meta name="description" content="Grano makes mousses, muffins, and snacks in Canada. Functional nutrition that tastes like food from a good bakery.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <noscript>
+    <style>
+      html.is-loading { overflow: auto; }
+      .loader { display: none !important; }
+      .reveal { opacity: 1 !important; filter: none !important; transform: none !important; }
+    </style>
+  </noscript>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="loader" id="loader" role="status" aria-live="polite" aria-label="Loading Grano">
+    <div class="loader-inner">
+      <p class="loader-word">Grano</p>
+      <span class="loader-bar" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <nav class="nav-left" aria-label="Primary">
+        <a href="#about">Our story</a>
+        <a href="#products">The lineup</a>
+        <a href="#why">The kitchen</a>
+      </nav>
+
+      <a class="logo" href="#top">
+        <svg class="logo-mark" viewBox="0 0 18 28" fill="none" aria-hidden="true">
+          <path d="M9 26 V6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <path d="M9 8 C9 8 4.5 9.5 4 13 C6.5 12.2 9 10.5 9 10.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <path d="M9 8 C9 8 13.5 9.5 14 13 C11.5 12.2 9 10.5 9 10.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <path d="M9 12.5 C9 12.5 3.8 14.2 3.2 18 C6.2 16.8 9 15 9 15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <path d="M9 12.5 C9 12.5 14.2 14.2 14.8 18 C11.8 16.8 9 15 9 15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <path d="M9 17 C9 17 4.2 18.8 3.8 22.5 C6.6 21.2 9 19.4 9 19.4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          <path d="M9 17 C9 17 13.8 18.8 14.2 22.5 C11.4 21.2 9 19.4 9 19.4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-word">Grano</span>
+      </a>
+
+      <div class="nav-right">
+        <a class="nav-quiet" href="#faq">FAQ</a>
+        <a class="nav-quiet" href="#contact">Contact</a>
+        <a class="btn btn-sm" href="#products">See the lineup</a>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav id="mobile-nav" class="nav-panel" aria-label="Mobile" aria-hidden="true">
+    <div class="nav-panel-inner">
+      <p class="nav-panel-kicker">
+        <span class="kicker-mark" aria-hidden="true"></span>
+        Menu
+      </p>
+      <div class="nav-panel-primary">
+        <a href="#chia-pop">Chia Pop</a>
+        <a href="#mango-glow">Mango Glow</a>
+        <a href="#amber">Amber</a>
+      </div>
+      <div class="panel-meta">
+        <a href="#about">Our story</a>
+        <a href="#why">The kitchen</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="hero hero--video" id="top">
+      <div class="hero-media" aria-hidden="true">
+        <video
+          class="hero-video js-autoplay-video"
+          poster="videos/mango-chia-jar-poster.jpg"
+          width="720"
+          height="1280"
+          muted
+          loop
+          playsinline
+          preload="auto"
+        >
+          <source src="videos/mango-chia-jar.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="hero-scrim" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="hero-copy">
+          <p class="hero-kicker reveal">
+            <span class="kicker-mark" aria-hidden="true"></span>
+            Made in Canada
+          </p>
+          <h1 class="reveal">Healthy food, finished properly.</h1>
+          <p class="hero-lead reveal">Canadian-made mousses and snacks for people who train, work, and still care how food tastes.</p>
+          <div class="hero-actions reveal">
+            <a class="btn" href="#products">See the lineup</a>
+            <a class="btn btn-ghost" href="#contact">Where to buy</a>
+          </div>
+        </div>
+        <div class="hero-flavours reveal">
+          <p class="flavor-label">The lineup</p>
+          <div class="flavor-pills" aria-label="Flavours">
+            <a href="#chia-pop">Chia Pop</a>
+            <a href="#mango-glow">Mango Glow</a>
+            <a href="#amber">Amber</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience wrap" id="about">
+      <div class="experience-panel reveal">
+        <div class="experience-copy">
+          <p class="eyebrow">Made in Canada</p>
+          <h2>The Grano kitchen, <em>refined.</em></h2>
+          <p>We bake and assemble in small batches. If a jar would not hold up next to a good bakery case, it does not leave the kitchen.</p>
+          <ul class="exp-points">
+            <li>
+              <span>01</span>
+              <div>
+                <strong>Taste first</strong>
+                <em>Recipes written like food, not like a panel.</em>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <strong>Packed in glass</strong>
+                <em>You should see the seed, fruit, and oat.</em>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <strong>Built for the day</strong>
+                <em>Morning, training, the gap between meetings.</em>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="experience-photos" aria-label="Grano jars">
+          <figure class="experience-photo experience-photo--lead">
+            <img src="images/studio-mango.png" width="1024" height="571" alt="Mango Glow jar with mango cream, chia, oats, and fresh mango." loading="lazy" decoding="async">
+          </figure>
+          <figure class="experience-photo">
+            <img src="images/studio-harvest.png" width="1024" height="571" alt="Chia Pop jar with granola, blueberry, and strawberry." loading="lazy" decoding="async">
+          </figure>
+          <figure class="experience-photo">
+            <img src="images/studio-cacao.png" width="1024" height="571" alt="Amber jar: cacao chia topped with toasted almonds." loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection wrap" id="products">
+      <div class="collection-head reveal">
+        <h2>Discover the lineup <em>for every hour.</em></h2>
+        <p>Three jars. Short specs. Photography from the current kitchen.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="pcard reveal" id="chia-pop">
+          <div class="pcard-media">
+            <img src="images/studio-harvest.png" width="1024" height="571" alt="Chia Pop jar with granola, blueberries, and strawberry."
+                 style="--fx: 0.5; --fy: 0.48; --zoom: 1.35" loading="lazy" decoding="async">
+          </div>
+          <h3 class="pcard-heading">
+            <button class="pcard-toggle" type="button" aria-expanded="false" aria-controls="chia-pop-panel">
+              <span class="pcard-index" aria-hidden="true">01</span>
+              <span class="pcard-text">
+                <span class="pcard-name" id="chia-pop-name">Chia Pop</span>
+                <span class="pcard-sub">Berry, granola, bright</span>
+              </span>
+              <span class="plus" aria-hidden="true"><span class="plus-mark"></span></span>
+            </button>
+          </h3>
+          <div class="pcard-panel" id="chia-pop-panel" role="region" aria-labelledby="chia-pop-name">
+            <div class="pcard-panel-inner">
+              <p>Vanilla chia under toasted granola, blueberries, and strawberry.</p>
+              <dl class="pcard-specs">
+                <div><dt>Base</dt><dd>Vanilla chia</dd></div>
+                <div><dt>Best for</dt><dd>Breakfast</dd></div>
+                <div><dt>Texture</dt><dd>Creamy, crunchy top</dd></div>
+              </dl>
+              <a class="pcard-link" href="#contact">Ask about this jar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pcard reveal" id="mango-glow">
+          <div class="pcard-media">
+            <img src="images/studio-mango.png" width="1024" height="571" alt="Mango Glow jar with mango cream, chia, oats, and fresh mango."
+                 style="--fx: 0.5; --fy: 0.48; --zoom: 1.35" loading="lazy" decoding="async">
+          </div>
+          <h3 class="pcard-heading">
+            <button class="pcard-toggle" type="button" aria-expanded="false" aria-controls="mango-glow-panel">
+              <span class="pcard-index" aria-hidden="true">02</span>
+              <span class="pcard-text">
+                <span class="pcard-name" id="mango-glow-name">Mango Glow</span>
+                <span class="pcard-sub">Fruit first, seed second</span>
+              </span>
+              <span class="plus" aria-hidden="true"><span class="plus-mark"></span></span>
+            </button>
+          </h3>
+          <div class="pcard-panel" id="mango-glow-panel" role="region" aria-labelledby="mango-glow-name">
+            <div class="pcard-panel-inner">
+              <p>Mango cream over chia and oats, with fresh mango on top.</p>
+              <dl class="pcard-specs">
+                <div><dt>Base</dt><dd>Mango cream</dd></div>
+                <div><dt>Best for</dt><dd>Warm days</dd></div>
+                <div><dt>Texture</dt><dd>Light, layered</dd></div>
+              </dl>
+              <a class="pcard-link" href="#contact">Ask about this jar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pcard reveal" id="amber">
+          <div class="pcard-media">
+            <img src="images/studio-cacao.png" width="1024" height="571" alt="Amber jar: cacao chia topped with toasted almonds."
+                 style="--fx: 0.5; --fy: 0.48; --zoom: 1.35" loading="lazy" decoding="async">
+          </div>
+          <h3 class="pcard-heading">
+            <button class="pcard-toggle" type="button" aria-expanded="false" aria-controls="amber-panel">
+              <span class="pcard-index" aria-hidden="true">03</span>
+              <span class="pcard-text">
+                <span class="pcard-name" id="amber-name">Amber</span>
+                <span class="pcard-sub">Cacao, toasted almond</span>
+              </span>
+              <span class="plus" aria-hidden="true"><span class="plus-mark"></span></span>
+            </button>
+          </h3>
+          <div class="pcard-panel" id="amber-panel" role="region" aria-labelledby="amber-name">
+            <div class="pcard-panel-inner">
+              <p>Dark cacao chia finished with toasted almonds. Contains nuts.</p>
+              <dl class="pcard-specs">
+                <div><dt>Base</dt><dd>Cacao chia</dd></div>
+                <div><dt>Best for</dt><dd>Afternoon</dd></div>
+                <div><dt>Texture</dt><dd>Silky, nutty</dd></div>
+              </dl>
+              <a class="pcard-link" href="#contact">Ask about this jar</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature-reel feature-reel--chia" aria-labelledby="chia-pop-film-name">
+      <div class="feature-reel-media" aria-hidden="true">
+        <video
+          class="feature-reel-video js-autoplay-video"
+          poster="videos/parfait-rotate-poster.jpg"
+          width="1280"
+          height="720"
+          muted
+          loop
+          playsinline
+          preload="metadata"
+        >
+          <source src="videos/parfait-rotate.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="feature-reel-copy">
+        <p class="hero-kicker reveal">
+          <span class="kicker-mark" aria-hidden="true"></span>
+          The jar
+        </p>
+        <h2 class="reveal" id="chia-pop-film-name">Chia Pop</h2>
+        <p class="feature-reel-lead reveal">Vanilla chia, toasted granola, blueberry, and strawberry. The bright breakfast jar — fruit you can see before you open it.</p>
+        <dl class="feature-reel-specs reveal">
+          <div><dt>Base</dt><dd>Vanilla chia</dd></div>
+          <div><dt>Best for</dt><dd>Morning</dd></div>
+          <div><dt>Finish</dt><dd>Berry, crunch</dd></div>
+        </dl>
+        <div class="hero-actions reveal">
+          <a class="btn" href="#chia-pop">See this jar</a>
+          <a class="btn btn-ghost" href="#contact">Where to buy</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="feature-reel-gap" aria-hidden="true"></div>
+
+    <section class="feature-reel feature-reel--amber" aria-labelledby="amber-film-name">
+      <div class="feature-reel-media" aria-hidden="true">
+        <video
+          class="feature-reel-video js-autoplay-video"
+          poster="videos/amber-jar-poster.jpg"
+          width="720"
+          height="1280"
+          muted
+          loop
+          playsinline
+          preload="metadata"
+        >
+          <source src="videos/amber-jar.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="feature-reel-copy">
+        <p class="hero-kicker reveal">
+          <span class="kicker-mark" aria-hidden="true"></span>
+          The jar
+        </p>
+        <h2 class="reveal" id="amber-film-name">Amber</h2>
+        <p class="feature-reel-lead reveal">Dark cacao chia finished with toasted almonds. The afternoon jar — rich, nutty, and built for when you want something that feels like dessert.</p>
+        <dl class="feature-reel-specs reveal">
+          <div><dt>Base</dt><dd>Cacao chia</dd></div>
+          <div><dt>Best for</dt><dd>Afternoon</dd></div>
+          <div><dt>Finish</dt><dd>Nutty, silky</dd></div>
+        </dl>
+        <div class="hero-actions reveal">
+          <a class="btn" href="#amber">See this jar</a>
+          <a class="btn btn-ghost" href="#contact">Where to buy</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="why wrap" id="why">
+      <div class="why-head reveal">
+        <h2>Crafted for an <em>active day.</em></h2>
+      </div>
+      <ol class="diff-list reveal">
+        <li>
+          <div>
+            <h3>Taste is the spec</h3>
+            <p>If it needs a paragraph of hype, it goes back to the kitchen.</p>
+          </div>
+          <span class="diff-num">01</span>
+        </li>
+        <li>
+          <div>
+            <h3>Ingredients you can see</h3>
+            <p>Glass, so seed, fruit, nut, and oat are obvious before you open it.</p>
+          </div>
+          <span class="diff-num">02</span>
+        </li>
+        <li>
+          <div>
+            <h3>Made in Canada</h3>
+            <p>Smaller batches, shorter supply, labels we actually have to meet.</p>
+          </div>
+          <span class="diff-num">03</span>
+        </li>
+        <li>
+          <div>
+            <h3>A food company</h3>
+            <p>Not a supplement aisle. Not a gym brand. Food that belongs on a table.</p>
+          </div>
+          <span class="diff-num">04</span>
+        </li>
+      </ol>
+    </section>
+
+    <section class="banner wrap">
+      <div class="banner-inner reveal">
+        <h2>Taste first. Made in <em>Canada.</em></h2>
+        <a class="btn btn-on-dark" href="#contact">Where to buy</a>
+      </div>
+    </section>
+
+    <section class="faq wrap" id="faq">
+      <div class="faq-head reveal">
+        <p class="eyebrow">Questions</p>
+        <h2>In the <em>jar.</em></h2>
+      </div>
+      <ul class="faq-list reveal">
+        <li class="faq-item">
+          <button type="button" aria-expanded="false" aria-controls="faq-1" id="faq-btn-1">
+            What is in the jars?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-panel" id="faq-1" role="region" aria-labelledby="faq-btn-1">
+            <p>Each jar is built around chia mousse, oats, fruit, cacao, or almond. The full ingredient statement is on the pack. If you have an allergy, read the pack, not the website.</p>
+          </div>
+        </li>
+        <li class="faq-item">
+          <button type="button" aria-expanded="false" aria-controls="faq-2" id="faq-btn-2">
+            How should I store them?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-panel" id="faq-2" role="region" aria-labelledby="faq-btn-2">
+            <p>Keep jars refrigerated and eat them by the date on the lid. They are a chilled food. Once opened, eat the same day.</p>
+          </div>
+        </li>
+        <li class="faq-item">
+          <button type="button" aria-expanded="false" aria-controls="faq-3" id="faq-btn-3">
+            Do you ship?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-panel" id="faq-3" role="region" aria-labelledby="faq-btn-3">
+            <p>Because the jars are chilled, we do not treat them like shelf-stable e-commerce. If you want Grano in a shop, gym, or café, use the contact form and tell us the city.</p>
+          </div>
+        </li>
+        <li class="faq-item">
+          <button type="button" aria-expanded="false" aria-controls="faq-4" id="faq-btn-4">
+            What about allergens?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-panel" id="faq-4" role="region" aria-labelledby="faq-btn-4">
+            <p>The line includes tree nuts (almond, coconut), oats, and possible dairy depending on the base. The pack is the legal source of truth.</p>
+          </div>
+        </li>
+        <li class="faq-item">
+          <button type="button" aria-expanded="false" aria-controls="faq-5" id="faq-btn-5">
+            Where can I buy Grano?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-panel" id="faq-5" role="region" aria-labelledby="faq-btn-5">
+            <p>We are building retail and wholesale partners in Canada. Contact us with your city, or if you buy for a store, with a buyer email.</p>
+          </div>
+        </li>
+        <li class="faq-item">
+          <button type="button" aria-expanded="false" aria-controls="faq-6" id="faq-btn-6">
+            Are these meal replacements?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-panel" id="faq-6" role="region" aria-labelledby="faq-btn-6">
+            <p>No. They are snacks and small meals around the day. We do not sell them as a diet plan.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="contact wrap" id="contact">
+      <div class="contact-grid reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Where to buy, and how to <em>reach us.</em></h2>
+          <p class="contact-note">Retail, wholesale, press, ingredients, allergens. We read everything that comes in.</p>
+          <dl class="contact-details">
+            <dt>Email</dt>
+            <dd><a href="mailto:hello@grano.ca">hello@grano.ca</a></dd>
+            <dt>Based</dt>
+            <dd>Canada</dd>
+            <dt>Social</dt>
+            <dd>
+              <a href="https://www.instagram.com/" rel="noopener noreferrer">Instagram</a>
+              ·
+              <a href="https://www.facebook.com/" rel="noopener noreferrer">Facebook</a>
+            </dd>
+          </dl>
+        </div>
+
+        <form class="form js-contact-form" action="#" method="post" novalidate>
+          <div class="form-fields">
+            <div class="field" data-field="name">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+              <p class="field-error"></p>
+            </div>
+            <div class="field" data-field="email">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <p class="field-error"></p>
+            </div>
+            <div class="field">
+              <label for="topic">What is this about</label>
+              <select id="topic" name="topic">
+                <option>General</option>
+                <option>Where to buy</option>
+                <option>Wholesale / retail</option>
+                <option>Ingredients or allergens</option>
+                <option>Press</option>
+              </select>
+            </div>
+            <div class="field" data-field="message">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+              <p class="field-error"></p>
+            </div>
+            <label class="check">
+              <input type="checkbox" name="consent" value="yes">
+              <span>You may email me about stockists or wholesale. Leave this unchecked if you only want a reply to this message. (CASL)</span>
+            </label>
+            <button class="btn" type="submit">Send message</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </div>
+          <div class="form-success">
+            <h3>Got it.</h3>
+            <p>If your mail app opened a draft, send it to finish. For anything urgent, write <a href="mailto:hello@grano.ca">hello@grano.ca</a>.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="#top"><span class="logo-word">Grano</span></a>
+        <p>Canadian-made mousses, muffins, and snacks.</p>
+      </div>
+      <div>
+        <h2>The line</h2>
+        <ul class="footer-links">
+          <li><a href="#chia-pop">Chia Pop</a></li>
+          <li><a href="#mango-glow">Mango Glow</a></li>
+          <li><a href="#amber">Amber</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Company</h2>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <p class="copyright">© 2026 Grano. Made in Canada.</p>
+      <nav class="legal-inline" aria-label="Legal">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+  <a class="back-top" href="#top" aria-label="Back to top">↑</a>
+
+  <div class="cookie" role="dialog" aria-label="Privacy notice">
+    <p>We store one preference on this device so we can hide this notice. See the <a href="privacy.html">Privacy Policy</a>.</p>
+    <button class="btn btn-on-dark btn-sm" type="button" data-cookie-dismiss>OK</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
